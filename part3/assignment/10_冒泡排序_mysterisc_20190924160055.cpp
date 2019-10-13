@@ -17,7 +17,7 @@ int main() {
     }
     int temp;
     for(int j = 0; j < 9; j++) {
-		for(int k = 0; k < 9; k++){
+		for(int k = 0; k < 9 - j; k++){
 			if(arr[k] > arr[k+1]){
 				temp = arr[k+1];
 				arr[k+1] = arr[k];
